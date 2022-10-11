@@ -13,6 +13,7 @@ const TradePage = () => (
 			id='2'
 			traderString='secondTrader'
 		/>
+		<TradeTable />
 	</>
 )
 

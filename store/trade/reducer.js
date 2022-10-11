@@ -41,6 +41,53 @@ export default function reducer(state = tradeInitialState, action) {
 				secondTrader: action.data
 			}
 		}
+		case tradeActionTypes.UPDATE_TRADE:
+			const { operation, item, trader } = action
+
+			if (operation === 'minus') {
+				return {
+					...state,
+					trade: {
+						...state.trade,
+						[trader]: {
+							...state.trade[trader],
+							[item]: state.trade[trader][item] + 1,
+							totalPoints: state.trade[trader].totalPoints + state.market[item]
+						}
+					},
+					[trader]: {
+						...state[trader],
+						[item]: state[trader][item] - 1,
+						totalPoints: state.trade[trader].totalPoints - state.market[item]
+					}
+				}
+			} else {
+				return {
+					...state,
+					trade: {
+						...state.trade,
+						[trader]: {
+							...state.trade[trader],
+							[item]: state.trade[trader][item] - 1,
+							totalPoints: state.trade[trader].totalPoints - state.market[item]
+						}
+					},
+					[trader]: {
+						...state[trader],
+						[item]: state[trader][item] + 1,
+						totalPoints: state.trade[trader].totalPoints + state.market[item]
+					}
+				}
+			}
+		case tradeActionTypes.RESET_TRADE:
+			return {
+				...state,
+				firstTrader: tradeInitialState.firstTrader,
+				secondTrader: tradeInitialState.secondTrader,
+				trade: {
+					...tradeInitialState.trade
+				}
+			}
 		case tradeActionTypes.GET_MARKET:
 			return {
 				...state,

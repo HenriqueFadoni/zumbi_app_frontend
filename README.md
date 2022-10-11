@@ -2,33 +2,29 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run the application with:
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn // npm install
+yarn dev // npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About The Development Process
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+In order to build this application quickly to showcase my skills, I've done the following:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Designed in a peace of paper the application architecture
+- Designed in a peace of paper the mockup of this application
+- Opened Figma and Started Designing a which wireframe
+- Started Creating Tables and Relations in MySQL Database
+- Started Coding the Back-end
+- Started Coding the Front-end
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can find the Figma file here: [FIGMA](https://www.figma.com/file/CMbXMzL7P7W8b7PUrGpsPb/Untitled?node-id=1%3A2)
+You can find the BACK-END repo here: [BACK-END](https://github.com/HenriqueFadoni/zumbi_app_backend)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+And, you can find the sketches I made down bellow:
+![Henry Fadoni](https://i.imgur.com/jQbxXIx.jpeg)
+![Software Developer](https://i.imgur.com/6rS82Se.jpeg)
+![Full-Stack Developer](https://i.imgur.com/piwBb6Q.jpeg)
+![Javascript](https://i.imgur.com/V2kgO1J.jpeg)

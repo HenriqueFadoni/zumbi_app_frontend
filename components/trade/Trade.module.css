@@ -1,0 +1,110 @@
+.averageContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: left;
+}
+
+.averageGrid {
+	width: 50%;
+	height: auto;
+	padding: 4rem;
+	font-size: 1.5rem;
+	background: linear-gradient(to right, #183A62, #00152E);
+	border-radius: 5px;
+}
+
+.averageGrid table {
+	width: 100%;
+}
+
+.averageGrid tr {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr min-content max-content;
+	grid-column-gap: 2rem;
+}
+
+.averageGrid tr:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.tradeCointainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+
+.tradeCointainer select {
+	width: 35rem;
+	justify-self: center;
+	align-self: center;
+	border: transparent;
+	background-color: transparent;
+	font-size: 2rem;
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+	outline: none;
+	background-color: #183A62;
+	padding: .5rem;
+}
+
+.tradeTables {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+}
+
+.tradeTables tr {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 4rem;
+	text-transform: capitalize;
+}
+
+.tradeTables tr:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.tradeTables button {
+	transform: scale(1.5);
+	margin-top: 4rem;
+}
+
+.tableHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: flex-start;
+}
+
+.tableHeader h2 {
+	margin: .2rem;
+}
+
+.tableHeader div {
+	height: 2rem;
+	padding: 2rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+	
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #00152E;
+	background-color: #FFF;
+	transition: all 200ms ease-out;
+}
+
+
+.tableHeader div:hover {
+	background-color: #00152E;
+	color: #FFF;
+}

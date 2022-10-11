@@ -21,6 +21,7 @@ In order to build this application quickly to showcase my skills, I've done the 
 - Started Coding the Front-end
 
 You can find the Figma file here: [FIGMA](https://www.figma.com/file/CMbXMzL7P7W8b7PUrGpsPb/Untitled?node-id=1%3A2)
+
 You can find the BACK-END repo here: [BACK-END](https://github.com/HenriqueFadoni/zumbi_app_backend)
 
 And, you can find the sketches I made down bellow:

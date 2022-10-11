@@ -1,0 +1,48 @@
+.reportGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 3rem;
+}
+
+.report {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.report h3 {
+	margin-left: 1rem;
+}
+
+.averageContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: left;
+}
+
+.averageGrid {
+	width: 50%;
+	height: auto;
+	padding: 4rem;
+	font-size: 1.5rem;
+	background: linear-gradient(to right, #183A62, #00152E);
+	border-radius: 5px;
+}
+
+.averageGrid table {
+	width: 100%;
+}
+
+.averageGrid tr {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.averageGrid tr:not(:last-child) {
+	margin-bottom: 2rem;
+}
